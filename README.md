@@ -22,7 +22,7 @@ Currently using [hongtaocai's googlefinance](https://github.com/hongtaocai/googl
 
 To install dependencies `pip install -r requirements.txt`.
 
-To run the bot replace the token in `run.py` and then run using `python run.py`.
+To run the bot, replace the token in `run.py` and then run using `python run.py`. For information on creating a slack bot, visit the [slack documentation](https://api.slack.com/bot-users).
 
 ### Future Improvement
 
