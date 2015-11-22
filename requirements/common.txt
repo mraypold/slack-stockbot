@@ -1,0 +1,4 @@
+googlefinance==0.7
+six==1.10.0
+slackclient==0.16
+websocket-client==0.34.0

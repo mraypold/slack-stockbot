@@ -1,0 +1,1 @@
+from slackstocks.components.slackstocks import SlackStocks
