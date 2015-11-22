@@ -4,11 +4,15 @@ Displays stock prices when queried with a ticker symbol.
 
 Stocks must be prefaced with a $. For example, to query Microsoft, type `$MSFT`.
 
-StockBot monitors all channels which it is participating. StockBot will also pick up on ticker symbols within sentences. Currently, StockBot doest work for private messages.
+StockBot monitors all channels which it is participating. StockBot will also pick up on ticker symbols within sentences. Currently, StockBot does not work for private messages.
 
 Please note, that as this bot uses Google Finance for ticker data, the responses returned are dependent on your IP. For instance, if querying Royal Bank of Canada, `$RY`, from a Canadian IP, Google Finance will return the TSE listed stock information.
 
 Finally, TSE data is 15 minute delayed, whereas, NYSE & NASDAQ are realtime.
+
+### Screenshots
+
+![screenshot](screenshots/screenshot-nov-2015.png)
 
 ### Requirements
 
