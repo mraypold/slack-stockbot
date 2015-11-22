@@ -8,7 +8,7 @@ StockBot monitors all channels which it is participating. StockBot will also pic
 
 Please note, that as this bot uses Google Finance for ticker data, the responses returned are dependent on your IP. For instance, if querying Royal Bank of Canada, `$RY`, from a Canadian IP, Google Finance will return the TSE listed stock information.
 
-Finally, TSE data is 15 minute delayed, whereas, NYSE & NASDAQ are realtime.
+Finally, TSE data is 15 minutes delayed, whereas, NYSE & NASDAQ are realtime.
 
 ### Screenshots
 
