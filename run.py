@@ -1,6 +1,6 @@
 from slackstocks import SlackStocks
 
-token = ""
+token = "YOUR-TOKEN-HERE"
 
 stocks = SlackStocks(token)
 stocks.run()
