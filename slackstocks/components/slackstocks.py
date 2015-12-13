@@ -109,6 +109,9 @@ class SlackStocks():
     def _strip_non_alphabet(self, stock):
         """Returns a stock containing only alphabet characters.
 
+        If returns nothing, then the given stock contained non-alphabet
+        characters.
+
         Args:
             stock: A proposed stock which was written in a slack channel.
         """
@@ -139,6 +142,11 @@ class SlackStocks():
 
             for stock in stocks:
                 ticker = self._strip_non_alphabet(stock)
+
+                # Do not respond if ticker is invalid.
+                if not ticker:
+                    continue
+
                 channel = event['channel']
 
                 # Lookup ticker data with google finance
