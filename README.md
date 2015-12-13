@@ -12,7 +12,7 @@ Finally, TSE data is 15 minutes delayed, whereas, NYSE & NASDAQ are realtime.
 
 ### Screenshots
 
-![screenshot](screenshots/screenshot-nov-2015.png)
+![screenshot](screenshots/screenshot-dec-2015.png)
 
 ### Requirements
 

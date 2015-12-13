@@ -145,13 +145,13 @@ class SlackStocks():
                 try:
                     gfin = getQuotes(ticker)[0]
 
-                    # Remove data which we dont want to display.
-                    gfin.pop('LastTradeWithCurrency', None)
-                    gfin.pop('LastTradeDateTime', None)
-                    gfin.pop('LastTradeTime', None)
-                    gfin.pop('ID', None)
+                    # We want to display the ticker and the price
+                    symbol = gfin.get("StockSymbol")
+                    price = gfin.get("LastTradePrice")
+                    date = gfin.get("LastTradeDateTimeLong")
 
-                    response = "{}".format(json.dumps(gfin, indent=2))
+                    # We aren't going to bother with localization...
+                    response = "{} traded at ${} on {}".format(symbol, price, date)
                     self.client.rtm_send_message(channel, response)
                 except Exception:
                     msg = "I was unable to find data on {}.".format(ticker)
