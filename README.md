@@ -1,5 +1,7 @@
 # Slack StockBot
 
+**No longer maintained. I started working [slack-stockbot-v2](https://github.com/mraypold/slack-stockbot)**
+
 Displays stock prices when queried with a ticker symbol.
 
 Stocks must be prefaced with a $. For example, to query Microsoft, type `$MSFT`.
